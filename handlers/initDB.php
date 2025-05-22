@@ -2,9 +2,9 @@
 	class myConnector {
 		private $_connection;
 		private static $_instance;
-		private $_host = "192.168.10.10:3306";
+		private $_host = "localhost";
 		private $_username = "root";
-		private $_password = "***REMOVED***";
+		private $_password = "";
 		private $_database = "cph_carcar";
 		
 		public static function getInstance() {

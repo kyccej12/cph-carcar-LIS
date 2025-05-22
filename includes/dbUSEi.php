@@ -1,6 +1,6 @@
 <?php
 
-	$con = mysqli_connect("localhost", "root", "***REMOVED***", "cph_carcar");
+	$con = mysqli_connect("localhost", "root", "", "cph_carcar");
 	if (mysqli_connect_errno()) {
 	    printf("Connect failed: %s\n", mysqli_connect_error());
 	    exit();
